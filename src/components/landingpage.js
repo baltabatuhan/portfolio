@@ -1,10 +1,22 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import {
+  Tabs,
+  Tab,
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardActions,
+  Button,
+  CardMenu,
+  IconButton,
+  CardText,
+} from "react-mdl";
 
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto" }} className="landing-div">
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -16,7 +28,7 @@ class Landing extends Component {
               <h1>Full Stack Web Developer</h1>
 
               <hr />
-              <p>HTML/CSS| JavaScript | React | NodeJS | Phyton</p>
+              <p>HTML/CSS | JavaScript | React | NodeJS | Phyton</p>
 
               <div className="social-links">
                 <a
